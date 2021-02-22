@@ -397,6 +397,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>EnableForAll</key>
+			<false/>
 			<key>FadtEnableReset</key>
 			<false/>
 			<key>NormalizeHeaders</key>
@@ -428,6 +430,8 @@
 			<key>DisableVariableWrite</key>
 			<false/>
 			<key>DiscardHibernateMap</key>
+			<false/>
+			<key>EnableForAll</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
@@ -513,10 +517,16 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,7/0,0</string>
+				<key>compatible</key>
+				<string>pci14e4,16bc</string>
 				<key>device_type</key>
 				<string>SD Host controller</string>
 				<key>model</key>
 				<string>SD/MMC Card Reader Controller</string>
+				<key>name</key>
+				<string>SD/MMC Card Reader</string>
+				<key>subsystem-vendor-id</key>
+				<data>axAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -961,6 +971,8 @@
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
+			<true/>
+			<key>SkipCustomEntryCheck</key>
 			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
