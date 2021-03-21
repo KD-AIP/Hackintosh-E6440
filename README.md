@@ -1,5 +1,5 @@
 # OpenCore EFI for Dell Latitude E6440 updated for Catalina
-## OpenCore 0.5.9
+## OpenCore 0.6.7
 
 ### For installing Catalina, use EFI.
 ### After installation, use Intel-N6235.
@@ -32,7 +32,7 @@
  - Dual Boot with Windows
  - built-in keyboard
  - built-in trackpad (multi gestures)
- - WiFi(via TN-WN725N with [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases) & Bluetooth(N6235)
+ - Native WiFi(via TN-WN725N & Bluetooth(N6235)
  - native USB3
  - native audio with AppleHDA
  - built-in mic
@@ -60,7 +60,7 @@ chmod +x GenSMBIOS.command
 6. Open EFI folder, go to EFI/OC, drag config.plist file to GenSMBIOS terminal window
 7. Generate SMBIOS
 8. Type `MacBookPro11,3`
-9. You will get your SMBIOS: Type, Serial, Board Serial and SmUUID.
+9. You will get your SMBIOS.
 
 ### Patching Bluetooth Kexts: 
 #### SIP is already disabled in OC config.plist but if doesn't work, Disable `NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> csr-active-config` and do the `1`
