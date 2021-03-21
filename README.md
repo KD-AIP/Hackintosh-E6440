@@ -62,16 +62,3 @@ chmod +x GenSMBIOS.command
 8. Type `MacBookPro11,3`
 9. You will get your SMBIOS.
 
-### Patching Bluetooth Kexts: 
-#### SIP is already disabled in OC config.plist but if doesn't work, Disable `NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> csr-active-config` and do the `1`
-1. [Disable SIP](https://www.reddit.com/r/MacOSBeta/comments/hy35is/how_exactly_do_you_disable_sip_in_big_sur/fza94t8?utm_source=share&utm_medium=web2x&context=3)
-2. Download Intel-N6235
-3. Run Hackintool and do the following
-![Hackintool](https://raw.githubusercontent.com/KD-AIP/Hackintosh-E6440/Catalina_OC/hackintool.png)
-4. Do the following:
-```
-cd Intel-N6235
-sudo chmod a+x Intel-N6235_Catalina.command
-./Intel-N6235_Catalina.command
-```
-5. Reboot
