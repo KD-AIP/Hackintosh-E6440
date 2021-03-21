@@ -61,11 +61,6 @@ chmod +x GenSMBIOS.command
 7. Generate SMBIOS
 8. Type `MacBookPro11,3`
 9. You will get your SMBIOS: Type, Serial, Board Serial and SmUUID.
-10. Edit your Config.plist either with OCC or Xcode or TextEdit: <br>
-  i. `Type` to `Generic -> SystemProductName` <br>
-  ii. `Serial` to `Generic -> SystemSerialNumber` <br>
-  iii. `Board Serial` to `Generic -> MLB` <br>
-  iv. `SmUUID` to `Generic -> SystemUUID` <br>
 
 ### Patching Bluetooth Kexts: 
 #### SIP is already disabled in OC config.plist but if doesn't work, Disable `NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> csr-active-config` and do the `1`
