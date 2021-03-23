@@ -7,15 +7,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>IntelN6235</string>
+	<string>6235CSRBluetoothHostControllerUSBTransport</string>
 	<key>CFBundleGetInfoString</key>
 	<string>7.0.6, Copyright © 2002-2019 Apple Inc. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.iokit.IntelN6235</string>
+	<string>com.apple.iokit.6235CSRBluetoothHostControllerUSBTransport</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>IntelN6235</string>
+	<string>6235CSRBluetoothHostControllerUSBTransport</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
@@ -46,12 +46,12 @@
 	<string>11O62d</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>Intel-N6235</key>
+		<key>6235</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.iokit.IntelN6235</string>
+			<string>com.apple.iokit.CSRBluetoothHostControllerUSBTransport</string>
 			<key>IOClass</key>
-			<string>IntelN6235</string>
+			<string>CSRBluetoothHostControllerUSBTransport</string>
 			<key>IOProviderClass</key>
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
