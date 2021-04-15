@@ -50,5 +50,6 @@
 
 ### Setup SMBIOS:
 
-1. View [this video](https://drive.google.com/file/d/1KQC-r6yeYCRDAIKaIzWl3wMfrxHkTcCz/view?usp=drivesdk)
-8. In the list, select `MacBookPro11,1`
+1. Download [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator) (OCC) 
+2. Watch [this video](https://drive.google.com/file/d/1KQC-r6yeYCRDAIKaIzWl3wMfrxHkTcCz/view?usp=drivesdk) to know how to UPDATE SMBIOS "the right way"
+3. In the list, select `MacBookPro11,1`
