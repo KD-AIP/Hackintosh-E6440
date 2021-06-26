@@ -4,7 +4,7 @@
   - Intel Core ~i5-4310M~ i7-4610M
   - Intel HD4600 integrated GPU
   - ~8GB~ 16GB DDR3 RAM
-  - TL-WN725N Wifi Card(Install this: [Wireless USB Adapter](https://github.com/chris1111/Wireless-USB-Adapter/releases)
+  - TL-WN725N Wifi Card(Install this: [Wireless USB Adapter](https://github.com/chris1111/Wireless-USB-Adapter/releases))
   - ~Intel Advanced-N 6235 Bluetooth~
   - Realtek ALC292
   - 8 Series/C220 Series Chipset Family USB
