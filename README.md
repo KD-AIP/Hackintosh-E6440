@@ -1,11 +1,11 @@
 # OpenCore EFI for Dell Latitude E6440 updated for Catalina
-## OpenCore 0.6.8
+## OpenCore 0.7.0
 ### Specs:
-  - Intel Core i5-4310M
+  - Intel Core ~i5-4310M~ i7-4610M
   - Intel HD4600 integrated GPU
-  - 8GB DDR3 RAM
-  - TL-WN725N Wifi Card
-  - Intel Advanced-N 6235 Bluetooth
+  - ~8GB~ 16GB DDR3 RAM
+  - TL-WN725N Wifi Card(Install this: [Wireless USB Adapter](https://github.com/chris1111/Wireless-USB-Adapter/releases)
+  - ~Intel Advanced-N 6235 Bluetooth~
   - Realtek ALC292
   - 8 Series/C220 Series Chipset Family USB
   - O2 Micro SD/MMC Card Reader
