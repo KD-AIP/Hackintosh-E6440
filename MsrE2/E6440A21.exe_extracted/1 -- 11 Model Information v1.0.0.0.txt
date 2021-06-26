@@ -1,0 +1,5 @@
+VendorName=Dell Inc.
+OemString=Dell System
+SystemName=Latitude E6440
+Version=A21
+Model=5bd
