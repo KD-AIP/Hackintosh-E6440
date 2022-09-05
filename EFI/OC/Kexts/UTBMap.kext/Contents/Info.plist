@@ -22,7 +22,7 @@
 	<string>1.1</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>EHC1</key>
+		<key>EH01</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.dhinakg.USBToolBox.kext</string>
@@ -31,30 +31,39 @@
 			<key>IOMatchCategory</key>
 			<string>USBToolBox</string>
 			<key>IONameMatch</key>
-			<string>EHC1</string>
+			<string>EH01</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>port-count</key>
 				<data>
-				AQAAAA==
+				AgAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
 					<key>PRT1</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AQAAAA==
 						</data>
 					</dict>
+					<key>PRT2</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						AgAAAA==
+						</data>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
-		<key>EHC2</key>
+		<key>EH02</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.dhinakg.USBToolBox.kext</string>
@@ -63,7 +72,7 @@
 			<key>IOMatchCategory</key>
 			<string>USBToolBox</string>
 			<key>IONameMatch</key>
-			<string>EHC2</string>
+			<string>EH02</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 			<key>IOProviderMergeProperties</key>
@@ -77,7 +86,7 @@
 					<key>PRT1</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AQAAAA==
