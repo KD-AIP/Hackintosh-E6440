@@ -1,11 +1,11 @@
-# OpenCore EFI for Dell Latitude E6440 updated for Catalina
+# OpenCore EFI for Dell Latitude E6440 updated for Big Sur
 ## OpenCore 0.7.0
+## Notify: To get boot, MsrE2 must to be disabled. Read until end for how to disable it.
 ### Specs:
   - Intel Core ~i5-4310M~ i7-4610M
   - Intel HD4600 integrated GPU
-  - ~8GB~ 16GB DDR3 RAM
-  - TL-WN725N Wifi Card(Install this: [Wireless USB Adapter](https://github.com/chris1111/Wireless-USB-Adapter/releases))
-  - ~Intel Advanced-N 6235 Bluetooth~
+  - 16GB DDR3 RAM
+  - Intel Advanced-N 6235 Wi-Fi & Bluetooth
   - Realtek ALC292
   - 8 Series/C220 Series Chipset Family USB
   - O2 Micro SD/MMC Card Reader
@@ -53,3 +53,8 @@
 1. Download [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator) (OCC) 
 2. Watch [this video](https://drive.google.com/file/d/1KQC-r6yeYCRDAIKaIzWl3wMfrxHkTcCz/view?usp=drivesdk) to know how to UPDATE SMBIOS "the right way"
 3. In the list, select `MacBookPro11,1`
+
+### MsrE2 Verify disable
+1. In OC bootmenu, select 0xC90 boot option. This will boot into modGrubShell
+2. running `setup_var 0xC90 0x00` and then press Enter
+3. Then reboot and done
